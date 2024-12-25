@@ -12,12 +12,12 @@
   * So I tried http://natas2.natas.labs.overthewire.org/files/ and saw a directory containing pixel.png and users.txt
   * Let's take a look at users.txt:
 
-# username:password
-alice:BYNdCesZqW
-bob:jw2ueICLvT
-charlie:G5vCxkVV3m
-natas3:`3gqisGdR0pjm6tpkDKdIWO2hSvchLeYH`
-eve:zo4mJWyNj2
-mallory:9urtcpzBmH
+* username:password
+* alice:BYNdCesZqW
+* bob:jw2ueICLvT
+* charlie:G5vCxkVV3m
+* natas3:`3gqisGdR0pjm6tpkDKdIWO2hSvchLeYH`
+* eve:zo4mJWyNj2
+* mallory:9urtcpzBmH
 
 3. This is a form of `Directory Traversal` or `Insecure Direct Object References (IDOR)`
