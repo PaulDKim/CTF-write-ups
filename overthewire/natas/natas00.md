@@ -3,7 +3,7 @@
   * username: `natas0`
   * password: `natas0`
   * url: `http://natas0.natas.labs.overthewire.org/`
-  * flag:
+  * flag: `0nzCigAq7t2iALyvU9xcHlYN4MlkIwlq`
 
 ## Procedure
 
