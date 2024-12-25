@@ -1,4 +1,4 @@
-# Natas0 (Level 0 -> 1)
+# Natas0
 
   * username: `natas0`
   * password: `natas0`
