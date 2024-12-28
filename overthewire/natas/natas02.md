@@ -18,4 +18,4 @@
  * natas3:`3gqisGdR0pjm6tpkDKdIWO2hSvchLeYH`
  * eve:zo4mJWyNj2
  * mallory:9urtcpzBmH
-4. This is a form of `Directory Traversal` or `Insecure Direct Object References (IDOR)`
+4. This is a form of `Directory Listing Vulnerability` or `Insecure Directory Access`
