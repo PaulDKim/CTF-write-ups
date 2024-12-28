@@ -1,4 +1,4 @@
-# Natas Levels Summary: A brief summary of the vulnerability exploited in each Natas level
+# Natas Levels Summary
 
   * Natas00: Sensitive Data Exposure/Information Disclosure
   * Natas01: Sensitive Data Exposure/Information Disclosure
