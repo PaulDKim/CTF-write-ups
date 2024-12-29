@@ -4,8 +4,9 @@
   * password: `0nzCigAq7t2iALyvU9xcHlYN4MlkIwlq`
   * url: `http://natas1.natas.labs.overthewire.org/`
   * flag: `TguMNxKo1DSa1tujBLuZJnDUlCcUAPlI`
+  * vulnerability: `sensitive data exposure` 
 
-## Procedure and Thought Process
+## Proof of Concept
 
 1. We see text stating: "You can find the password for the next level on this page but rightclicking has been blocked!"
   * Right clicking is not the only way to view source code of a web page. We can utilize `CTRL+U`
