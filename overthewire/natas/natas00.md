@@ -4,8 +4,9 @@
   * password: `natas0`
   * url: `http://natas0.natas.labs.overthewire.org/`
   * flag: `0nzCigAq7t2iALyvU9xcHlYN4MlkIwlq`
+  * vulnerability: `sensitive data exposure`
 
-## Procedure
+## Proof of Concept
 
 1. Presented with text stating: "You can find the password for the next level on this page."
 2. Utilize `CTRL+U` or `Right Click + Inspect` in order to view the page source
