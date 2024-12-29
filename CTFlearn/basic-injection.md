@@ -1,6 +1,7 @@
 # Basic Injection
+Vulnerability Found: SQL Injection (SQLi)
 
-## Procedure
+## Proof of Concept
 1. On the default page of this lab, we can observe that it takes user input.  
 It also presents the `Original Query` as well as the `Resulting Query`  
 ![Image description](images/basic-injection-home.png)
