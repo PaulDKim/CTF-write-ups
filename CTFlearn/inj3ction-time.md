@@ -11,14 +11,14 @@ Tool: `SQLMap`
 * `" OR 1=1-- -`  
 But it did not seem to render any output from the database. 
 2. I opened the developer tools in the browser and looked under the `network` tab to copy the request as `cURL`. I copy and pasted this request in the command line and replaced `curl` with `sqlmap`.  
-![descript](images/inj3ction-time-sqlmap.png)  
+![descript](images/inj3ction-time-sqlmap1.png)  
 3. I gained information about the target site's database and web server by running this command in the terminal:  
 * `back-end DBMS`: MySQL
 * `web server OS`: Linux Ubuntu
 * `web application technology`: PHP 5.5.9  
-![descript](images/inj3ction-time-initial-sqlmap)
+![descript](images/inj3ction-time-initial-sqlmap.png)
 4. Through my initial sqlmap command, I also found that the `id` parameter in the URL of the target site is vulnerable to `time-based blind SQLi`  
-![descript](images/inj3ction-time-sqli)
+![descript](images/inj3ction-time-sqli.png)
 5. Because sqlmap was successful in its first run, I thought it would be a good idea to extend on this and use the found vulnerablity to enumerate the databases that the web application is using. I used the `--dbs` option in sqlmap to give me a list of the available databases.  
 ![descript](images/inj3ction-time-current-dbs.png)  
 ![descript](images/inj3ction-time-available-dbs.png)
