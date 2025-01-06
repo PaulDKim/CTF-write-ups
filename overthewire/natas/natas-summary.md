@@ -7,3 +7,4 @@
   * Natas04: Referer Spoofing
   * Natas05: Cookie Spoofing/Manipulation
   * Natas06: Source Code Disclosure/Information Leakage
+  * Natas07: Local File Inclusion
