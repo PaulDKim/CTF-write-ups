@@ -3,7 +3,7 @@
   * username: `natas7`  
   * password: `bmg8SvU1LizuWjx3y7xkNERkHxGre0GS`  
   * url: `http://natas7.natas.labs.overthewire.org`  
-  * flag: ``  
+  * flag: `xcoXLmzMkoIP9D7hlgPlh9XD7OgLAe5Q`  
   * vulnerability: `Local File Inclusion (LFI)`  
 
 ## Proof of Concept
