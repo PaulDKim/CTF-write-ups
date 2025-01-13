@@ -1,4 +1,4 @@
-# Lab010: Blind SQL injection with conditional errors
+# Lab10: Blind SQL injection with conditional errors
 * url: `https://portswigger.net/web-security/sql-injection/blind/lab-conditional-errors`
 * vulnerability: `Blind SQL injection with conditional errors`
 
