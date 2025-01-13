@@ -1,4 +1,4 @@
-# Lab09: SQL injection UNION attack, retrieving multiple values in a single column
+# Lab09: Blind SQL injection with conditional responses
 * url: `https://portswigger.net/web-security/sql-injection/blind/lab-conditional-responses`
 * vulnerability: `Blind SQL injection with conditional responses`
 
