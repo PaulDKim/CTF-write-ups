@@ -12,3 +12,4 @@
   * Natas09: Command Injection
   * Natas10: Command Injection
   * Natas11: Reverse Engineering / Cookie Manipulation
+  * Natas12: Client-Side Validation Bypass / File Upload Vulnerability
