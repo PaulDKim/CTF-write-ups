@@ -11,3 +11,4 @@
   * Natas08: Basic Reverse Engineering / Data Encoding/Decoding
   * Natas09: Command Injection
   * Natas10: Command Injection
+  * Natas11: Reverse Engineering / Cookie Manipulation
