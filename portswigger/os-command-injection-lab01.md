@@ -26,13 +26,13 @@ To get a better understanding of what is going on in the background, let's assum
 user input of `productId` and `storeId` like: 
 
 ```bash
-stock 2 2
+stockcheck 2 2
 ```
 
 So in the `Proof of Concept` section, I chose to first test the `productId` parameter by injecting ` &whoami`. This would result in something that looks like: 
 
 ```bash
-stock 2 &whoami 2
+stockcheck 2 &whoami 2
 ```
 
 clearly this is not a valid os command, and hence would trigger an error!
