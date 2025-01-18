@@ -21,3 +21,18 @@ execution and intercept the request on `Burp Suite` to see what is going on:
 5. We generate an error explaining that the server tried the `whoami` command, which triggered an `unbound variable` error. The reason behind this is probably we injected a command and the original os command on the backend takes in and expects more variables. This would ruin the logic of the original command. To get around this, I can change me injection to ` &whoami # `. The `#` is used in bash as a comment character, which will comment out the rest of the original command on the backend.  
 ![descript](images/os-command-injection-lab01-flag.png)
 
+## Notes
+To get a better understanding of what is going on in the background, let's assume that there's a custom script called `stockcheck` that the web application server uses to execute as a shell command using the 
+user input of `productId` and `storeId` like: 
+
+```bash
+stock 2 2
+```
+
+So in the `Proof of Concept` section, I chose to first test the `productId` parameter by injecting ` &whoami`. This would result in something that looks like: 
+
+```bash
+stock 2 &whoami 2
+```
+
+clearly this is not a valid os command, and hence would trigger an error!
