@@ -8,7 +8,7 @@
 
 ## Proof of Concept
 1. From looking at the home page of the application, it looks like a `file upload vulnerability` lab. I start by
-checking the source code to look for clues and to see if the web application has any `client-side` filters. 
+checking the source code to look for clues and to see if the web application has any `client-side` filters.   
 ![descript](images/natas13-source.png)
 2. It looks like the web application doesn't have any client-side filters but it does specify that they only 
 accept `image` files and have a file size limit. To start off the lab, I need to figure out what kind of language
