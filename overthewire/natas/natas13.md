@@ -3,7 +3,7 @@
   * username: `natas13`  
   * password: `trbs5pCjCrkuSknBBKHhaBxq6Wm1j3LC`  
   * url: `http://natas13.natas.labs.overthewire.org`  
-  * flag: ``  
+  * flag: `z3UYcr4v4uBpeX8f7EZbMHlzK4UR2XtQ`  
   * vulnerability: `File Upload Vulnerability`  
 
 ## Proof of Concept
